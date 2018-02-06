@@ -15,6 +15,9 @@ When the bucket has been created, you will need to run the Cronjob Manager to sc
 
 ``` crontab -e ```
 
-If/when prompted to, pick the first option that appears of of 3. When you open the file in the Cronjob Manager, you will need to paste the following code in order to run this process every hour:
+When prompted to the file in Cronjob Manager, you will need to paste the following code in order to run this process every hour:
 
-``` 0 * * * * sh /home/[Your-Username]/clocoss-signoff4/cron.sh ```
+``` 0 * * * * sh /home/[[Your-upnumber]]/clocoss-signoff4/cron.sh ```
+
+this bucket will run and backup every hour. 
+Once this is done, Finish. 
